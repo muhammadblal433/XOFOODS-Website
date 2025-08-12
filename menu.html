@@ -1,0 +1,1633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>XO FOODS - Menu</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/images/XOFOODSLOGO.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="loader">
+      <img
+        src="./assets/images/XOFOODSLOGO.png"
+        alt="XO Foods Logo"
+        class="loader-logo"
+      />
+      <p>XO FOODS</p>
+      <div class="loader-ellipses">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <header class="bg-white">
+      <div class="container header my-3 d-none d-lg-flex">
+        <div class="logo">
+          <a href="./index.html" class="d-flex align-items-center">
+            <img
+              src="./assets/images/XOFOODSLOGO.png"
+              alt="XO Foods Logo"
+              class="logo-img me-2"
+            />
+            <h1 class="mb-0 text-dark">XO FOODS</h1>
+          </a>
+        </div>
+        <div class="menus">
+          <ul class="d-flex mb-0">
+            <li class="list-unstyled py-2">
+              <a
+                class="text-decoration-none text-uppercase p-4 text-dark"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="list-unstyled py-2">
+              <a
+                class="text-decoration-none text-uppercase p-4 text-dark"
+                href="./about.html"
+                >About</a
+              >
+            </li>
+            <li class="list-unstyled py-2">
+              <a
+                class="text-decoration-none text-uppercase p-4 text-dark"
+                href="./menu.html"
+                >Menu</a
+              >
+            </li>
+            <li class="list-unstyled py-2">
+              <a
+                class="text-decoration-none text-uppercase p-4 text-dark"
+                href="./contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        class="d-flex justify-content-around py-3 align-items-center d-lg-none"
+      >
+        <div id="hamburger">
+          <i class="fa fa-2x fa-bars me-3 text-dark"></i>
+        </div>
+
+        <div class="mobile-nav-logo">
+          <div class="logo d-flex align-items-center">
+            <a href="./index.html" class="d-flex align-items-center">
+              <img
+                src="./assets/images/XOFOODSLOGO.png"
+                alt="XO Foods Logo"
+                style="height: 30px; width: auto; margin-right: 8px"
+              />
+              <h1 class="mb-0 text-dark">XO FOODS</h1>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="position-fixed w-75 bg-white h-100 top-0 start-0"
+          id="mobile-menu"
+        >
+          <div
+            id="hamburger-cross"
+            class="d-flex justify-content-end align-items-center py-2"
+          >
+            <i class="fa fa-2x fa-plus me-3"></i>
+          </div>
+          <div class="menus">
+            <ul class="d-flex flex-column ps-2 mb-0 mt-4">
+              <li class="list-unstyled py-2">
+                <a
+                  class="text-dark text-decoration-none text-uppercase p-4"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="list-unstyled py-2">
+                <a
+                  class="text-dark text-decoration-none text-uppercase p-4"
+                  href="./about.html"
+                  >About</a
+                >
+              </li>
+              <li class="list-unstyled py-2">
+                <a
+                  class="text-dark text-decoration-none text-uppercase p-4"
+                  href="./menu.html"
+                  >Menu</a
+                >
+              </li>
+              <li class="list-unstyled py-2">
+                <a
+                  class="text-dark text-decoration-none text-uppercase p-4"
+                  href="./contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="menu-page">
+      <section class="page-banner d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="banner-content">
+              <h2
+                class="text-white display-3 text-center"
+                data-aos="fade-right"
+                data-aos-delay="3000"
+              >
+                Menu
+              </h2>
+              <div
+                class="divider"
+                data-aos="fade-up-right"
+                data-aos-delay="3000"
+              >
+                <div class="dot mb-2"></div>
+              </div>
+              <p class="text-center">
+                The various dishes are waiting for your coming to enjoy its
+                flavor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CHICKEN -->
+      <section class="menu-cards my-5 pb-0 pb-lg-5">
+        <div class="container">
+          <div class="row" data-aos="fade-right">
+            <h2 class="text-center display-6 fw-bold">CHICKEN</h2>
+            <div
+              class="menu-line d-flex justify-content-center align-items-center"
+            >
+              <span></span>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <!-- LEFT COLUMN -->
+            <div class="col-lg-6">
+              <!-- Breast -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">Breast</h4>
+                  <p class="menu-card__desc mb-2">
+                    (1 Breast)
+                    <br />
+                    [COMBO: COMES WITH 3 Jojos + 1 Dinner Roll]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$3.09</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$5.29</span>
+                    <span class="muted">COMBO</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img src="./assets/images/Breast.png" alt="Breast" />
+                </div>
+              </article>
+
+              <!-- Thigh -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">Thigh</h4>
+                  <p class="menu-card__desc mb-2">
+                    (1 Thigh)
+                    <br />
+                    [COMBO: COMES WITH 3 Jojos + 1 Dinner Roll]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$2.29</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$4.29</span>
+                    <span class="muted">COMBO</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img src="./assets/images/Thigh.png" alt="Thigh" />
+                </div>
+              </article>
+
+              <!-- Leg -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">Leg</h4>
+                  <p class="menu-card__desc mb-2">
+                    (1 Leg)
+                    <br />
+                    [COMBO: COMES WITH 3 Jojos + 1 Dinner Roll]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$1.89</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$3.99</span>
+                    <span class="muted">COMBO</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img src="./assets/images/Leg.png" alt="Leg" />
+                </div>
+              </article>
+
+              <!-- Wing -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">Wing</h4>
+                  <p class="menu-card__desc mb-2">
+                    (1 Wing)
+                    <br />
+                    [COMBO: COMES WITH 3 Jojos + 1 Dinner Roll]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$1.89</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$3.99</span>
+                    <span class="muted">COMBO</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img src="./assets/images/Wing.png" alt="Wing" />
+                </div>
+              </article>
+
+              <!-- 4 Legs OR 4 Wings -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">4 Legs OR 4 Wings</h4>
+                  <p class="menu-card__desc mb-2">
+                    (4 Legs OR 4 Wings)
+                    <br />
+                    [COMBO: COMES WITH 6 Jojos + 1 Dinner Roll]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$7.49</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$10.99</span>
+                    <span class="muted">COMBO</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/LegsAndWings.png"
+                    alt="4 Legs or 4 Wings"
+                  />
+                </div>
+              </article>
+
+              <!-- 6 Legs OR 6 Wings -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">6 Legs OR 6 Wings</h4>
+                  <p class="menu-card__desc mb-2">
+                    (6 Legs OR 6 Wings)
+                    <br />
+                    [COMBO: COMES WITH 6 Jojos + 1 Dinner Roll]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$10.99</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$13.99</span>
+                    <span class="muted">COMBO</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/LegsAndWings.png"
+                    alt="6 Legs or 6 Wings"
+                  />
+                </div>
+              </article>
+
+              <!-- 2 Piece Combo -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">2 Piece Combo</h4>
+                  <p class="menu-card__desc mb-2">
+                    (1 Breast OR Thigh + 1 Leg OR Wing)
+                    <br />
+                    [COMBO: COMES WITH 6 Jojos + 1 Dinner Roll]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$7.49</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/All4FriedChicken.png"
+                    alt="2 Piece Combo"
+                  />
+                </div>
+              </article>
+
+              <!-- 3 Piece Combo -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">3 Piece Combo</h4>
+                  <p class="menu-card__desc mb-2">
+                    (1 Breast, 1 Thigh, 1 Leg OR Wing)
+                    <br />
+                    [COMBO: COMES WITH 6 Jojos + 1 Dinner Roll]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$9.99</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/All4FriedChicken.png"
+                    alt="3 Piece Combo"
+                  />
+                </div>
+              </article>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="col-lg-6">
+              <!-- 4 Piece Chicken -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">4 Piece Chicken</h4>
+                  <p class="menu-card__desc mb-2">
+                    (1 Breast, 1 Thigh, 1 Leg, 1 Wing) [60¢ Extra All White]
+                    <br />
+                    [COMBO: COMES WITH 6 Jojos + 1 Dinner Roll]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$8.89</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$11.89</span>
+                    <span class="muted">COMBO</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/All4FriedChicken.png"
+                    alt="4 Piece Chicken"
+                  />
+                </div>
+              </article>
+
+              <!-- 6 Piece Chicken -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">6 Piece Chicken</h4>
+                  <p class="menu-card__desc mb-2">
+                    (1 Breast, 1 Thigh, 2 Legs, 2 Wings) [60¢ Extra All White]
+                    <br />
+                    [COMBO: COMES WITH 6 Jojos + 1 Dinner Roll]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$12.49</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$15.49</span>
+                    <span class="muted">COMBO</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/All4FriedChicken.png"
+                    alt="6 Piece Chicken"
+                  />
+                </div>
+              </article>
+
+              <!-- 8 Piece Chicken -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">8 Piece Chicken</h4>
+                  <p class="menu-card__desc mb-1">
+                    (2 Breasts, 2 Thighs, 2 Legs, 2 Wings)
+                  </p>
+                  <p class="menu-card__desc mb-2">
+                    [COMBO: COMES WITH 12 Jojos + 4 Dinner Rolls]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$17.99</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$21.99</span>
+                    <span class="muted">COMBO</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/All4FriedChicken.png"
+                    alt="8 Piece Chicken"
+                  />
+                </div>
+              </article>
+
+              <!-- 12 Piece Chicken -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">12 Piece Chicken</h4>
+                  <p class="menu-card__desc mb-1">
+                    (3 Breasts, 3 Thighs, 3 Legs, 3 Wings)
+                  </p>
+                  <p class="menu-card__desc mb-2">
+                    [COMBO: COMES WITH 12 Jojos + 4 Dinner Rolls]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$23.99</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$27.99</span>
+                    <span class="muted">COMBO</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/All4FriedChicken.png"
+                    alt="12 Piece Chicken"
+                  />
+                </div>
+              </article>
+
+              <!-- 16 Piece Chicken -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">16 Piece Chicken</h4>
+                  <p class="menu-card__desc mb-1">
+                    (4 Breasts, 4 Thighs, 4 Legs, 4 Wings)
+                  </p>
+                  <p class="menu-card__desc mb-2">
+                    [COMBO: COMES WITH 18 Jojos + 6 Dinner Rolls]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$29.99</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$33.99</span>
+                    <span class="muted">COMBO</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/All4FriedChicken.png"
+                    alt="16 Piece Chicken"
+                  />
+                </div>
+              </article>
+
+              <!-- 20 Piece Chicken -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">20 Piece Chicken</h4>
+                  <p class="menu-card__desc mb-1">
+                    (4 Breasts, 4 Thighs, 6 Legs, 6 Wings)
+                  </p>
+                  <p class="menu-card__desc mb-2">
+                    [COMBO: COMES WITH 18 Jojos + 6 Dinner Rolls]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$37.99</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$41.99</span>
+                    <span class="muted">COMBO</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/All4FriedChicken.png"
+                    alt="20 Piece Chicken"
+                  />
+                </div>
+              </article>
+
+              <!-- 24 Piece Chicken -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">24 Piece Chicken</h4>
+                  <p class="menu-card__desc mb-1">
+                    (5 Breasts, 5 Thighs, 7 Legs, 7 Wings)
+                  </p>
+                  <p class="menu-card__desc mb-2">
+                    [COMBO: COMES WITH 24 Jojos + 6 Dinner Rolls]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$45.99</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$49.99</span>
+                    <span class="muted">COMBO</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/All4FriedChicken.png"
+                    alt="24 Piece Chicken"
+                  />
+                </div>
+              </article>
+
+              <!-- 30 Piece Chicken -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">30 Piece Chicken</h4>
+                  <p class="menu-card__desc mb-1">
+                    (6 Breasts, 6 Thighs, 9 Legs, 9 Wings)
+                  </p>
+                  <p class="menu-card__desc mb-2">
+                    [COMBO: COMES WITH 24 Jojos + 6 Dinner Rolls]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$54.99</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$59.99</span>
+                    <span class="muted">COMBO</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/All4FriedChicken.png"
+                    alt="30 Piece Chicken"
+                  />
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gizzards -->
+      <section class="menu-cards my-5 pb-0 pb-lg-5">
+        <div class="container">
+          <div class="row" data-aos="fade-right">
+            <h2 class="text-center display-6 fw-bold">GIZZARDS</h2>
+            <div
+              class="menu-line d-flex justify-content-center align-items-center"
+            >
+              <span></span>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <!-- LEFT COLUMN - 6oz Bag -->
+            <div class="col-lg-6">
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">Gizzards - 6oz Bag</h4>
+                  <p class="menu-card__desc mb-2">
+                    [COMBO: COMES WITH 6 Jojos + 1 Dinner Roll]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$4.67</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$7.99</span>
+                    <span class="muted">COMBO</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img src="./assets/images/gizzards.jpeg" alt="6oz Gizzards" />
+                </div>
+              </article>
+            </div>
+
+            <!-- RIGHT COLUMN - 9oz Bag -->
+            <div class="col-lg-6">
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">Gizzards - 9oz Bag</h4>
+                  <p class="menu-card__desc mb-2">
+                    [COMBO: COMES WITH 6 Jojos + 1 Dinner Roll]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$5.61</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$8.99</span>
+                    <span class="muted">COMBO</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img src="./assets/images/gizzards.jpeg" alt="9oz Gizzards" />
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SANDWICHES -->
+      <section class="menu-cards my-5 pb-0 pb-lg-5">
+        <div class="container">
+          <div class="row" data-aos="fade-right">
+            <h2 class="text-center display-6 fw-bold">SANDWICHES</h2>
+            <div
+              class="menu-line d-flex justify-content-center align-items-center"
+            >
+              <span></span>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <!-- LEFT COLUMN -->
+            <div class="col-lg-6">
+              <!-- Cheeseburger -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">Cheeseburger</h4>
+                  <p class="menu-card__desc mb-2">
+                    [MEAL: COMES WITH Fries + 16oz Fountain Drink]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$5.49</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$8.49</span>
+                    <span class="muted">MEAL</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/Cheeseburger.png"
+                    alt="Cheeseburger"
+                  />
+                </div>
+              </article>
+
+              <!-- Double Cheeseburger -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">Double Cheeseburger</h4>
+                  <p class="menu-card__desc mb-2">
+                    [MEAL: COMES WITH Fries + 16oz Fountain Drink]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$7.49</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$10.49</span>
+                    <span class="muted">MEAL</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/Cheeseburger.png"
+                    alt="Double Cheeseburger"
+                  />
+                </div>
+              </article>
+
+              <!-- Gyro -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">Gyro</h4>
+                  <p class="menu-card__desc mb-2">
+                    [MEAL: COMES WITH Fries + 16oz Fountain Drink]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$7.99</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$10.99</span>
+                    <span class="muted">MEAL</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img src="./assets/images/Gyro.png" alt="Gyro" />
+                </div>
+              </article>
+
+              <!-- Gyro Cheeseburger -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">Gyro Cheeseburger</h4>
+                  <p class="menu-card__desc mb-2">
+                    [MEAL: COMES WITH Fries + 16oz Fountain Drink]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$8.49</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$11.49</span>
+                    <span class="muted">MEAL</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/GyroCheeseburger.png"
+                    alt="Gyro Cheeseburger"
+                  />
+                </div>
+              </article>
+
+              <!-- Double Gyro Cheeseburger -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">
+                    Double Gyro Cheeseburger
+                  </h4>
+                  <p class="menu-card__desc mb-2">
+                    [MEAL: COMES WITH Fries + 16oz Fountain Drink]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$11.99</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$14.49</span>
+                    <span class="muted">MEAL</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/GyroCheeseburger.png"
+                    alt="Double Gyro Cheeseburger"
+                  />
+                </div>
+              </article>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="col-lg-6">
+              <!-- Crispy Chicken Sandwich -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">Crispy Chicken Sandwich</h4>
+                  <p class="menu-card__desc mb-2">
+                    [MEAL: COMES WITH Fries + 16oz Fountain Drink]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$5.49</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$8.49</span>
+                    <span class="muted">MEAL</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/ChickenSandwich.png"
+                    alt="Crispy Chicken Sandwich"
+                  />
+                </div>
+              </article>
+
+              <!-- BBQ Chicken Sandwich -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">BBQ Chicken Sandwich</h4>
+                  <p class="menu-card__desc mb-2">
+                    [MEAL: COMES WITH Fries + 16oz Fountain Drink]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$5.49</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$8.49</span>
+                    <span class="muted">MEAL</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/BBQChickenSandwich.png"
+                    alt="BBQ Chicken Sandwich"
+                  />
+                </div>
+              </article>
+
+              <!-- Philly Cheesesteak/Chicken Philly -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">
+                    Philly Cheesesteak/Chicken Philly
+                  </h4>
+                  <p class="menu-card__desc mb-2">
+                    [MEAL: COMES WITH Fries + 16oz Fountain Drink]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$7.99</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$10.99</span>
+                    <span class="muted">MEAL</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/Philly.png"
+                    alt="Philly Cheesesteak or Chicken Philly"
+                  />
+                </div>
+              </article>
+
+              <!-- Perch (Fish) Sandwich -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">Perch (Fish) Sandwich</h4>
+                  <p class="menu-card__desc mb-2">
+                    [MEAL: COMES WITH Fries + 16oz Fountain Drink]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$5.49</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$8.49</span>
+                    <span class="muted">MEAL</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/PerchSandwich.png"
+                    alt="Perch Fish Sandwich"
+                  />
+                </div>
+              </article>
+
+              <!-- Catfish Sandwich -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">Catfish Sandwich</h4>
+                  <p class="menu-card__desc mb-2">
+                    [MEAL: COMES WITH Fries + 16oz Fountain Drink]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$6.99</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$9.99</span>
+                    <span class="muted">MEAL</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/CatfishSandwich.png"
+                    alt="Catfish Sandwich"
+                  />
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SPECIALS -->
+      <section class="menu-cards my-5 pb-0 pb-lg-5">
+        <div class="container">
+          <div class="row" data-aos="fade-right">
+            <h2 class="text-center display-6 fw-bold">SPECIALS</h2>
+            <div
+              class="menu-line d-flex justify-content-center align-items-center"
+            >
+              <span></span>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <!-- LEFT COLUMN -->
+            <div class="col-lg-6">
+              <!-- Perch (Fish) -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-1">Perch (Fish)</h4>
+                  <p class="menu-card__desc mb-2">
+                    [MEAL: COMES WITH 3 Perch Filets + Fries + 16oz Fountain
+                    Drink + ADD Potato Salad OR Coleslaw]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$8.99</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$13.99</span>
+                    <span class="muted">MEAL</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img src="./assets/images/Perch.png" alt="Perch Fish" />
+                </div>
+              </article>
+
+              <!-- Catfish -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-1">Catfish</h4>
+                  <p class="menu-card__desc mb-2">
+                    [MEAL: COMES WITH 3 Catfish Filets + Fries + 16oz Fountain
+                    Drink + ADD Potato Salad OR Coleslaw]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$11.99</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$14.99</span>
+                    <span class="muted">MEAL</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img src="./assets/images/Catfish.png" alt="Catfish" />
+                </div>
+              </article>
+
+              <!-- Rib Tips -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">Rib Tips</h4>
+                  <p class="menu-card__desc mb-2">
+                    [MEAL: COMES WITH Fries + 16oz Fountain Drink]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$8.99</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$11.99</span>
+                    <span class="muted">MEAL</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img src="./assets/images/RibTips.png" alt="Rib Tips" />
+                </div>
+              </article>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="col-lg-6">
+              <!-- 5 Chicken Strips -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">5 Chicken Strips</h4>
+                  <p class="menu-card__desc mb-2">
+                    [MEAL: COMES WITH Fries + 16oz Fountain Drink]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$6.99</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$9.99</span>
+                    <span class="muted">MEAL</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/5ChickenStrips.png"
+                    alt="5 Chicken Strips"
+                  />
+                </div>
+              </article>
+
+              <!-- 4 Chicken Tenders -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-2">4 Chicken Tenders</h4>
+                  <p class="menu-card__desc mb-2">
+                    [MEAL: COMES WITH Fries + 16oz Fountain Drink]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$6.99</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$9.99</span>
+                    <span class="muted">MEAL</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/4Tenders.png"
+                    alt="4 Chicken Tenders"
+                  />
+                </div>
+              </article>
+
+              <!-- Pizza Puff -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title mb-1">Pizza Puff</h4>
+                  <p class="menu-card__desc mb-2">(Sausage/Beef/Pepperoni)</p>
+                  <p class="menu-card__desc mb-2">
+                    [MEAL: COMES WITH Fries + 16oz Fountain Drink]
+                  </p>
+                  <div class="menu-card__price">
+                    <span class="price">$4.49</span>
+                    <span class="muted">ONLY</span>
+                    <span class="dot">·</span>
+                    <span class="price">$7.49</span>
+                    <span class="muted">MEAL</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img src="./assets/images/PizzaPuff.png" alt="Pizza Puff" />
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- APPETIZERS -->
+      <section class="menu-cards my-5 pb-0 pb-lg-5">
+        <div class="container">
+          <div class="row" data-aos="fade-right">
+            <h2 class="text-center display-6 fw-bold">APPETIZERS</h2>
+            <div
+              class="menu-line d-flex justify-content-center align-items-center"
+            >
+              <span></span>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <!-- LEFT COLUMN -->
+            <div class="col-lg-6">
+              <!-- Cheese Nuggets -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title">Cheese Nuggets</h4>
+                  <div class="menu-card__price">
+                    <span class="price">$5.99</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/CheeseNuggets.png"
+                    alt="Cheese Nuggets"
+                  />
+                </div>
+              </article>
+
+              <!-- Spicy Cheese Nuggets -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title">Spicy Cheese Nuggets</h4>
+                  <div class="menu-card__price">
+                    <span class="price">$5.99</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/CheeseNuggets.png"
+                    alt="Spicy Cheese Nuggets"
+                  />
+                </div>
+              </article>
+
+              <!-- Mozzarella Sticks -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title">Mozzarella Sticks</h4>
+                  <div class="menu-card__price">
+                    <span class="price">$5.99</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/MozzarellaSticks.png"
+                    alt="Mozzarella Sticks"
+                  />
+                </div>
+              </article>
+
+              <!-- Jalapeño Poppers -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title">Jalapeño Poppers</h4>
+                  <div class="menu-card__price">
+                    <span class="price">$5.99</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/JalapeñoPoppers.png"
+                    alt="Jalapeño Poppers"
+                  />
+                </div>
+              </article>
+
+              <!-- Onion Rings -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title">Onion Rings</h4>
+                  <div class="menu-card__price">
+                    <span class="price">$5.99</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img src="./assets/images/OnionRings.png" alt="Onion Rings" />
+                </div>
+              </article>
+
+              <!-- Fried Pickles -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title">Fried Pickles</h4>
+                  <div class="menu-card__price">
+                    <span class="price">$5.99</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/FriedPickles.png"
+                    alt="Fried Pickles"
+                  />
+                </div>
+              </article>
+
+              <!-- Mashed Potatoes -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title">Mashed Potatoes</h4>
+                  <div class="menu-card__price">
+                    <span class="price">$2.99</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/MashedPotatoes.png"
+                    alt="Mashed Potatoes"
+                  />
+                </div>
+              </article>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="col-lg-6">
+              <!-- French Fries (Large) -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title">French Fries (Large)</h4>
+                  <div class="menu-card__price">
+                    <span class="price">$3.99</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/FrenchFries.png"
+                    alt="French Fries Large"
+                  />
+                </div>
+              </article>
+
+              <!-- French Fries (Small) -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title">French Fries (Small)</h4>
+                  <div class="menu-card__price">
+                    <span class="price">$2.69</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/FrenchFries.png"
+                    alt="French Fries Small"
+                  />
+                </div>
+              </article>
+
+              <!-- Coleslaw -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title">Coleslaw</h4>
+                  <div class="menu-card__price">
+                    <span class="price">$2.49</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img src="./assets/images/Coleslaw.png" alt="Coleslaw" />
+                </div>
+              </article>
+
+              <!-- Potato Salad -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title">Potato Salad</h4>
+                  <div class="menu-card__price">
+                    <span class="price">$2.49</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/PotatoSalad.png"
+                    alt="Potato Salad"
+                  />
+                </div>
+              </article>
+
+              <!-- Egg Roll -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title">Egg Roll</h4>
+                  <div class="menu-card__price">
+                    <span class="price">$2.49</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img src="./assets/images/EggRoll.png" alt="Egg Roll" />
+                </div>
+              </article>
+
+              <!-- 1 Chicken Tender Only (Minimum 4) -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title">
+                    1 Chicken Tender Only (Minimum 4)
+                  </h4>
+                  <div class="menu-card__price">
+                    <span class="price">$1.89</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/4Tenders.png"
+                    alt="Chicken Tender Only"
+                  />
+                </div>
+              </article>
+
+              <!-- 1 Chicken Strip Only (Minimum 5) -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title">
+                    1 Chicken Strip Only (Minimum 5)
+                  </h4>
+                  <div class="menu-card__price">
+                    <span class="price">$1.89</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img
+                    src="./assets/images/5ChickenStrips.png"
+                    alt="Chicken Strip Only"
+                  />
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- JOJOS (POTATO WEDGES) - card style like Gizzards -->
+      <section class="menu-cards my-5 pb-0 pb-lg-5">
+        <div class="container">
+          <div class="row" data-aos="fade-right">
+            <h2 class="text-center display-6 fw-bold">JOJOS (POTATO WEDGES)</h2>
+            <div
+              class="menu-line d-flex justify-content-center align-items-center"
+            >
+              <span></span>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <!-- LEFT COLUMN -->
+            <div class="col-lg-6">
+              <!-- 3 Jojos -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title">3 Jojos</h4>
+                  <div class="menu-card__price">
+                    <span class="price">$1.69</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img src="./assets/images/Jojos.png" alt="3 Jojos" />
+                </div>
+              </article>
+
+              <!-- 6 Jojos -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-right"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title">6 Jojos</h4>
+                  <div class="menu-card__price">
+                    <span class="price">$2.99</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img src="./assets/images/Jojos.png" alt="6 Jojos" />
+                </div>
+              </article>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="col-lg-6">
+              <!-- 12 Jojos -->
+              <article
+                class="menu-card d-flex align-items-center"
+                data-aos="fade-left"
+              >
+                <div class="menu-card__body">
+                  <h4 class="menu-card__title">12 Jojos</h4>
+                  <div class="menu-card__price">
+                    <span class="price">$5.49</span>
+                  </div>
+                </div>
+                <div class="menu-card__image">
+                  <img src="./assets/images/Jojos.png" alt="12 Jojos" />
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <a href="#" id="back-to-top">
+      <i class="fa-solid fa-angles-up"></i>
+    </a>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="footer-content col-xl-8 px-4">
+            <div class="row">
+              <div class="col-lg-6 px-0">
+                <div
+                  class="logo d-flex align-items-center"
+                  data-aos="fade-down-right"
+                >
+                  <a href="./index.html" class="d-flex align-items-center">
+                    <img
+                      src="./assets/images/XOFOODSLOGO.png"
+                      alt="XO Foods Logo"
+                      class="logo-img me-2"
+                      style="height: 40px; width: auto"
+                    />
+                    <h1 class="mb-0">XO FOODS</h1>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row pt-5 content-desc" data-aos="fade-right">
+              <p style="font-size: 18px; font-weight: 500; line-height: 1.6">
+                Located in Waterloo, IA, XO FOODS has been serving up delicious,
+                high-quality meals inside a gas station for over 10 years. We
+                take pride in offering fresh, flavorful food that keeps our
+                customers coming back for more. Whether you're stopping by for a
+                quick bite or a hearty meal, our commitment to great taste and
+                friendly service makes us a local favorite. Come experience the
+                best food in town—where convenience meets quality!
+              </p>
+            </div>
+            <div
+              class="row justify-content-center text-center"
+              data-aos="fade-right"
+            >
+              <!-- Location -->
+              <div
+                class="col-lg-6 col-md-12 d-flex flex-column align-items-center py-3"
+              >
+                <img
+                  src="./assets/images/LocationSymbol.png"
+                  alt="Location Icon"
+                  style="height: 60px; width: auto; margin-bottom: 10px"
+                />
+                <p style="font-size: 22px">
+                  428 Franklin St <br />
+                  Waterloo, IA 50703 <br />
+                  United States
+                </p>
+              </div>
+
+              <!-- Phone -->
+              <div
+                class="col-lg-6 col-md-12 d-flex flex-column align-items-center py-3"
+              >
+                <img
+                  src="./assets/images/PhoneCall.png"
+                  alt="Phone Icon"
+                  style="height: 60px; width: auto; margin-bottom: 10px"
+                />
+                <p
+                  style="font-size: 24px; font-weight: bold; margin-bottom: 5px"
+                >
+                  Call Us
+                </p>
+                <p style="font-size: 22px">+1 (319)-234-8977</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="reservation-box" data-aos="fade-down-left">
+              <div class="reservation-wrapper">
+                <h2>Open Hours</h2>
+                <div class="reservation-date-time">
+                  <p>MONDAY: .......................... 9AM - 10PM</p>
+                  <p>TUESDAY: ......................... 9AM - 10PM</p>
+                  <p>WEDNESDAY: ........................9AM - 10PM</p>
+                  <p>THURSDAY: .........................9AM - 10PM</p>
+                  <p>FRIDAY: ...........................9AM - 10PM</p>
+                  <p>SATURDAY: ........................ 9AM - 10PM</p>
+                  <p>SUNDAY: .......................... 10AM - 10PM</p>
+                </div>
+                <h2 class="pb-2">PLACE AN ORDER BY PHONE</h2>
+                <h3>+1 (319) 234-8977</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <p class="text-center pt-4 mt-3 pt-lg-0">
+            &copy; <span id="copyrightCurrentYear"></span>
+            <b> XO FOODS & LIQUOR.</b> All rights reserved. Design by XO FOODS
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

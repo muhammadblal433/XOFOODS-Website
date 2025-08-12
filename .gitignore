@@ -1,0 +1,19 @@
+cat > .gitignore << 'EOF'
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.swp
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.zip
+*.rar
+EOF

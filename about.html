@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>XO FOODS - About</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/images/XOFOODSLOGO.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="loader">
+      <img
+        src="./assets/images/XOFOODSLOGO.png"
+        alt="XO Foods Logo"
+        class="loader-logo"
+      />
+      <p>XO FOODS</p>
+      <div class="loader-ellipses">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <header class="bg-white">
+      <div class="container header my-3 d-none d-lg-flex">
+        <div class="logo">
+          <a href="./index.html" class="d-flex align-items-center">
+            <img
+              src="./assets/images/XOFOODSLOGO.png"
+              alt="XO Foods Logo"
+              class="logo-img me-2"
+            />
+            <h1 class="mb-0 text-dark">XO FOODS</h1>
+          </a>
+        </div>
+        <div class="menus">
+          <ul class="d-flex mb-0">
+            <li class="list-unstyled py-2">
+              <a
+                class="text-decoration-none text-uppercase p-4 text-dark"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="list-unstyled py-2">
+              <a
+                class="text-decoration-none text-uppercase p-4 text-dark"
+                href="./about.html"
+                >About</a
+              >
+            </li>
+            <li class="list-unstyled py-2">
+              <a
+                class="text-decoration-none text-uppercase p-4 text-dark"
+                href="./menu.html"
+                >Menu</a
+              >
+            </li>
+            <li class="list-unstyled py-2">
+              <a
+                class="text-decoration-none text-uppercase p-4 text-dark"
+                href="./contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        class="d-flex justify-content-around py-3 align-items-center d-lg-none"
+      >
+        <div id="hamburger">
+          <i class="fa fa-2x fa-bars me-3 text-dark"></i>
+        </div>
+
+        <div class="mobile-nav-logo">
+          <div class="logo d-flex align-items-center">
+            <a href="./index.html" class="d-flex align-items-center">
+              <img
+                src="./assets/images/XOFOODSLOGO.png"
+                alt="XO Foods Logo"
+                style="height: 30px; width: auto; margin-right: 8px"
+              />
+              <h1 class="mb-0 text-dark">XO FOODS</h1>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="position-fixed w-75 bg-white h-100 top-0 start-0"
+          id="mobile-menu"
+        >
+          <div
+            id="hamburger-cross"
+            class="d-flex justify-content-end align-items-center py-2"
+          >
+            <i class="fa fa-2x fa-plus me-3"></i>
+          </div>
+          <div class="menus">
+            <ul class="d-flex flex-column ps-2 mb-0 mt-4">
+              <li class="list-unstyled py-2">
+                <a
+                  class="text-dark text-decoration-none text-uppercase p-4"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="list-unstyled py-2">
+                <a
+                  class="text-dark text-decoration-none text-uppercase p-4"
+                  href="./about.html"
+                  >About</a
+                >
+              </li>
+              <li class="list-unstyled py-2">
+                <a
+                  class="text-dark text-decoration-none text-uppercase p-4"
+                  href="./menu.html"
+                  >Menu</a
+                >
+              </li>
+              <li class="list-unstyled py-2">
+                <a
+                  class="text-dark text-decoration-none text-uppercase p-4"
+                  href="./contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="about-page">
+      <section class="page-banner d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="banner-content">
+              <h2
+                class="text-white display-6 fw-bold text-center"
+                data-aos="fade-right"
+                data-aos-delay="3000"
+              >
+                Our Story
+              </h2>
+              <div
+                class="divider"
+                data-aos="fade-up-right"
+                data-aos-delay="3000"
+              >
+                <div class="dot mb-2"></div>
+              </div>
+              <p
+                class="text-white mb-0 text-center"
+                data-aos="fade-left"
+                data-aos-delay="3000"
+              >
+                Discover what makes XO FOODS unique.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us Section -->
+      <section class="about-story mt-5 pt-5">
+        <div class="container">
+          <!-- Mission -->
+          <div class="row align-items-center mb-5">
+            <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
+              <div class="photo-frame">
+                <img
+                  src="./assets/images/FriedChicken-2.jpg"
+                  alt="Our Mission"
+                />
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+              <h3 class="fw-bold">Our Mission</h3>
+              <p>
+                Our mission is to serve bold, high‑quality food that tastes like
+                it was made just for you, whether you’re dining in, grabbing
+                to‑go, or ordering delivery. We believe convenience should never
+                come at the expense of flavor, freshness, or hospitality—and we
+                build every plate around that promise. From our seasoning blends
+                to our frying oil and prep standards, we obsess over the details
+                so every bite hits the spot. We’re here to feed our community
+                quickly, fairly, and consistently, while keeping that warm,
+                neighborhood feel. When you choose XO FOODS, you’re choosing
+                speed with soul—and that’s our north star.
+              </p>
+            </div>
+          </div>
+
+          <!-- Inspiration -->
+          <div class="row align-items-center mb-5 flex-md-row-reverse">
+            <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-left">
+              <div class="photo-frame">
+                <img
+                  src="./assets/images/BurgerAndFries.jpg"
+                  alt="Our Inspiration"
+                />
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-right">
+              <h3 class="fw-bold">Our Inspiration</h3>
+              <p>
+                XO FOODS was born inside a humble gas station in Waterloo, IA,
+                where great food and real people cross paths every day. We drew
+                inspiration from home‑cooked comfort and the energy of street
+                food—simple, craveable, and made with care. Watching customers
+                light up over crispy chicken and hot, seasoned wedges reminded
+                us that good food doesn’t need fancy surroundings. It needs
+                heart, consistency, and generous portions. That spirit drives us
+                to keep the menu honest, the flavors loud, and the experience
+                welcoming.
+              </p>
+            </div>
+          </div>
+
+          <!-- Why XO FOODS -->
+          <div class="row align-items-center mb-5">
+            <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
+              <div class="photo-frame">
+                <img
+                  src="./assets/images/XOFOODSLOGO-1.jpg"
+                  alt="Why XO FOODS"
+                />
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+              <h3 class="fw-bold">Why XO FOODS?</h3>
+              <p>
+                For over a decade, we’ve earned trust one order at a time by
+                cooking fresh, serving fast, and treating everyone like a
+                regular. Our recipes are simple on purpose—quality ingredients,
+                seasoned right, cooked hot, and handed to you with a smile.
+                We’re family‑owned and community‑driven, which means we listen,
+                we adapt, and we never cut corners. The reviews and repeat
+                customers speak for themselves: XO FOODS is where convenience
+                meets real flavor. If you want food that’s reliable, generous,
+                and seriously tasty, you’ll feel right at home here.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <a href="#" id="back-to-top">
+      <i class="fa-solid fa-angles-up"></i>
+    </a>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="footer-content col-xl-8 px-4">
+            <div class="row">
+              <div class="col-lg-6 px-0">
+                <div
+                  class="logo d-flex align-items-center"
+                  data-aos="fade-down-right"
+                >
+                  <a href="./index.html" class="d-flex align-items-center">
+                    <img
+                      src="./assets/images/XOFOODSLOGO.png"
+                      alt="XO Foods Logo"
+                      class="logo-img me-2"
+                      style="height: 40px; width: auto"
+                    />
+                    <h1 class="mb-0">XO FOODS</h1>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row pt-5 content-desc" data-aos="fade-right">
+              <p style="font-size: 18px; font-weight: 500; line-height: 1.6">
+                Located in Waterloo, IA, XO FOODS has been serving up delicious,
+                high-quality meals inside a gas station for over 10 years. We
+                take pride in offering fresh, flavorful food that keeps our
+                customers coming back for more. Whether you're stopping by for a
+                quick bite or a hearty meal, our commitment to great taste and
+                friendly service makes us a local favorite. Come experience the
+                best food in town—where convenience meets quality!
+              </p>
+            </div>
+            <div
+              class="row justify-content-center text-center"
+              data-aos="fade-right"
+            >
+              <!-- Location -->
+              <div
+                class="col-lg-6 col-md-12 d-flex flex-column align-items-center py-3"
+              >
+                <img
+                  src="./assets/images/LocationSymbol.png"
+                  alt="Location Icon"
+                  style="height: 60px; width: auto; margin-bottom: 10px"
+                />
+                <p style="font-size: 22px">
+                  428 Franklin St <br />
+                  Waterloo, IA 50703 <br />
+                  United States
+                </p>
+              </div>
+
+              <!-- Phone -->
+              <div
+                class="col-lg-6 col-md-12 d-flex flex-column align-items-center py-3"
+              >
+                <img
+                  src="./assets/images/PhoneCall.png"
+                  alt="Phone Icon"
+                  style="height: 60px; width: auto; margin-bottom: 10px"
+                />
+                <p
+                  style="font-size: 24px; font-weight: bold; margin-bottom: 5px"
+                >
+                  Call Us
+                </p>
+                <p style="font-size: 22px">+1 (319)-234-8977</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="reservation-box" data-aos="fade-down-left">
+              <div class="reservation-wrapper">
+                <h2>Open Hours</h2>
+                <div class="reservation-date-time">
+                  <p>MONDAY: .......................... 9AM - 10PM</p>
+                  <p>TUESDAY: ......................... 9AM - 10PM</p>
+                  <p>WEDNESDAY: ........................9AM - 10PM</p>
+                  <p>THURSDAY: .........................9AM - 10PM</p>
+                  <p>FRIDAY: ...........................9AM - 10PM</p>
+                  <p>SATURDAY: ........................ 9AM - 10PM</p>
+                  <p>SUNDAY: .......................... 10AM - 10PM</p>
+                </div>
+                <h2 class="pb-2">PLACE AN ORDER BY PHONE</h2>
+                <h3>+1 (319) 234-8977</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <p class="text-center pt-4 mt-3 pt-lg-0">
+            &copy; <span id="copyrightCurrentYear"></span>
+            <b> XO FOODS & LIQUOR.</b> All rights reserved. Design by XO FOODS
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
