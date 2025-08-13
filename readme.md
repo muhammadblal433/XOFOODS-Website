@@ -2,7 +2,7 @@
 
 ## 📂 Project Overview
 
-This website was made for XO FOODS.
+This website was made for XO FOODS. Check out the wesbite at: https://xofoods.netlify.app/
 
 ## 🛠️ Technologies Used
 
@@ -34,8 +34,7 @@ Restoran/
 
 ## 📸 Image Credits
 
-All images used in this template are sourced from free online resources. Since the exact sources are unknown, please ensure to use your own images or attribute them appropriately if you know their origins.
-
+All images used in this template are sourced from free online resources and XO FOODS.
 ## 📝 License
 
 This project is open-source and available under the [MIT License](LICENSE).
